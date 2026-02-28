@@ -1,0 +1,43 @@
+{
+  "system": {
+    "arch": "aarch64",
+    "kernel": "Linux 5.10.160-rockchip-rk356x",
+    "cpu": "unknown",
+    "cores": 4,
+    "ram": "7689 MB"
+  },
+  "version": "1.0.0",
+  "bench_secs_per_test": 1.0,
+  "results": {
+    "sha256": {
+      "32": {"ops_sec": 134265, "mb_sec": 4.1, "ops": 135490},
+      "1024": {"ops_sec": 95728, "mb_sec": 93.5, "ops": 96357},
+      "65536": {"ops_sec": 5112, "mb_sec": 319.5, "ops": 5219}
+    },
+    "sha512": {
+      "32": {"ops_sec": 124682, "mb_sec": 3.8, "ops": 125804},
+      "1024": {"ops_sec": 60828, "mb_sec": 59.4, "ops": 61035},
+      "65536": {"ops_sec": 1176, "mb_sec": 73.5, "ops": 1178}
+    },
+    "blake2b": {
+      "32": {"ops_sec": 674907, "mb_sec": 20.6, "ops": 685747},
+      "1024": {"ops_sec": 84443, "mb_sec": 82.5, "ops": 84443},
+      "65536": {"ops_sec": 2497, "mb_sec": 156.1, "ops": 2502}
+    },
+    "eaglesong": {
+      "32": {"ops_sec": 83703, "mb_sec": 2.6, "ops": 83781},
+      "1024": {"ops_sec": 8928, "mb_sec": 8.7, "ops": 8928},
+      "65536": {"ops_sec": 99, "mb_sec": 6.2, "ops": 100}
+    },
+    "aes256gcm": {
+      "32": {"ops_sec": 138995, "mb_sec": 4.2, "ops": 138995},
+      "1024": {"ops_sec": 46086, "mb_sec": 45.0, "ops": 46509},
+      "65536": {"ops_sec": 2214, "mb_sec": 138.4, "ops": 2215}
+    },
+    "ed25519_sign": {"ops_sec": 4090, "ops": 4090},
+    "ed25519_verify": {"ops_sec": 1785, "ops": 1785},
+    "secp256k1_sign": {"ops_sec": 2264, "ops": 2264},
+    "secp256k1_verify": {"ops_sec": 1421, "ops": 1430},
+    "memory_bandwidth": {"write_mb_sec": 3519845147, "read_mb_sec": 1459}
+  }
+}
